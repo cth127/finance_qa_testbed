@@ -38,13 +38,13 @@ def write_json( res, path ) :
 def main( ) :
     arg = Argp( )
     arg.add_argument( '-d', '--device', default = 'cpu', help = 'Device to use : cuda or cpu (default : cpu)' )
-    arg.add_argument( '-p', '--prepro', default = False, help = 'Whether to delete parenthesis (default : False)' )
+    arg.add_argument( '-p', '--prepro', default = 'False', help = 'Whether to delete parenthesis (default : False)' )
     args = arg.parse_args( )
     device = args.device
     prepro = eval(args.prepro)
 
     models = open( r'./model.txt', 'r' ).read( ).splitlines( )
-    input_data = load_json( r'./input/input.json' )
+    input_data = load_json( r'./input/input_sample.json' )
     text = input_data[ 'text' ]
     if prepro == True :
         text = reg_deleter( text, '\([^\(\)]*\)', '' )
@@ -66,7 +66,7 @@ def main( ) :
                 result[ 'QA' ].append( qa )
             else :
                 result[ 'QA' ][ n2 ][ "answer" ][ name ] = ans
-    write_json( result, r'./output/output.json' )
+    write_json( result, r'./output/output_sample.json' )
 
 
 if __name__ == "__main__" :
