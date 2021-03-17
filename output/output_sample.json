@@ -1,0 +1,61 @@
+{
+    "text": "Under the terms of the Merger Agreement, at the effective time of the Merger (the \u201cEffective Time\u201d), each share of common stock, par value $1.00 per share, of SunTrust (\u201cSunTrust Common Stock\u201d) outstanding as of immediately prior to the Effective Time, other than certain shares held by SunTrust or BB&T, was converted into the right to receive 1.295 shares of common stock (the \u201cExchange Ratio\u201d), par value $5.00, of BB&T (\u201cBB&T Common Stock\u201d). Holders of SunTrust Common Stock became entitled to receive cash in lieu of fractional shares. At the Effective Time, each share of perpetual preferred stock, Series A, no par value, of SunTrust (\u201cSunTrust series A preferred stock\u201d); perpetual preferred stock, Series B, no par value, of SunTrust (\u201cSunTrust series B preferred stock\u201d); perpetual preferred stock, Series F, no par value, of SunTrust (\u201cSunTrust series F preferred stock\u201d); perpetual preferred stock, Series G, no par value, of SunTrust (\u201cSunTrust series G preferred stock\u201d); and perpetual preferred stock, Series H, no par value, of SunTrust (\u201cSunTrust series H preferred stock\u201d and together with SunTrust series A preferred stock, SunTrust series B preferred stock, SunTrust series F preferred stock and SunTrust series G preferred stock, the \u201cSunTrust Preferred Stock\u201d) issued and outstanding immediately prior to the Effective Time, other than dissenting shares, was converted into the right to receive one share of an applicable newly issued series of BB&T preferred stock having substantially the same terms as such share of SunTrust Preferred Stock.",
+    "QA": [
+        {
+            "question": "What will Suntrust stock be converted into?",
+            "answer": {
+                "roberta": " the right to receive 1.295 shares of common stock (the \u201cExchange Ratio\u201d), par value $5.00, of BB&T",
+                "albert": "the right to receive 1.295 shares of common stock",
+                "longformer": " the right to receive 1.295 shares of common stock"
+            }
+        },
+        {
+            "question": "What will BB&T stock be converted into?",
+            "answer": {
+                "roberta": " 1.295 shares of common stock",
+                "albert": "[CLS] what will bb&t stock be converted into?[SEP] under the terms of the merger agreement, at the effective time of the merger (the <unk>effective time<unk>), each share of common stock, par value $1.00 per share, of suntrust (<unk>suntrust common stock<unk>) outstanding as of immediately prior to the effective time, other than certain shares held by suntrust or bb&t, was converted into the right to receive 1.295 shares of common stock",
+                "longformer": "<s>"
+            }
+        },
+        {
+            "question": "What will Samsung stock be converted into?",
+            "answer": {
+                "roberta": "<s>",
+                "albert": "[CLS] what will samsung stock be converted into?[SEP]",
+                "longformer": "<s>"
+            }
+        },
+        {
+            "question": "What will Suntrust stock be exchanged for?",
+            "answer": {
+                "roberta": " cash",
+                "albert": "1.295 shares of common stock",
+                "longformer": " 1.295 shares of common stock (the \u201cExchange Ratio\u201d), par value $5.00, of BB&T (\u201cBB&T Common Stock\u201d). Holders of SunTrust Common Stock became entitled to receive cash in lieu of fractional shares. At the Effective Time, each share of perpetual preferred stock, Series A, no par value, of SunTrust (\u201cSunTrust series A preferred stock\u201d); perpetual preferred stock, Series B, no par value, of SunTrust (\u201cSunTrust series B preferred stock\u201d); perpetual preferred stock, Series F, no par value, of SunTrust (\u201cSunTrust series F preferred stock\u201d); perpetual preferred stock, Series G, no par value, of SunTrust (\u201cSunTrust series G preferred stock\u201d); and perpetual preferred stock, Series H, no par value, of SunTrust (\u201cSunTrust series H preferred stock\u201d and together with SunTrust series A preferred stock, SunTrust series B preferred stock, SunTrust series F preferred stock and SunTrust series G preferred stock, the \u201cSunTrust Preferred Stock\u201d) issued and outstanding immediately prior to the Effective Time, other than dissenting shares, was converted into the right to receive one share of an applicable newly issued series of BB&T preferred stock"
+            }
+        },
+        {
+            "question": "What will Suntrust common stock be converted into?",
+            "answer": {
+                "roberta": " the right to receive 1.295 shares of common stock",
+                "albert": "the right to receive 1.295 shares of common stock",
+                "longformer": " the right to receive 1.295 shares of common stock"
+            }
+        },
+        {
+            "question": "What will Suntrust common stock be exchanged for?",
+            "answer": {
+                "roberta": " 1.295 shares of common stock (the \u201cExchange Ratio\u201d), par value $5.00, of BB&T (\u201cBB&T Common Stock\u201d). Holders of SunTrust Common Stock became entitled to receive cash",
+                "albert": "1.295 shares of common stock",
+                "longformer": " 1.295 shares"
+            }
+        },
+        {
+            "question": "What will Suntrust preferred stock be converted into?",
+            "answer": {
+                "roberta": " the right to receive one share of an applicable newly issued series of BB&T preferred stock",
+                "albert": "the right to receive one share of an applicable newly issued series of bb&t preferred stock",
+                "longformer": " the right to receive one share of an applicable newly issued series of BB&T preferred stock"
+            }
+        }
+    ]
+}
