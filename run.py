@@ -44,7 +44,7 @@ def main( ) :
     prepro = eval(args.prepro)
 
     models = open( r'./model.txt', 'r' ).read( ).splitlines( )
-    input_data = load_json( r'./input/input_sample.json' )
+    input_data = load_json( r'./input/input.json' )
     text = input_data[ 'text' ]
     if prepro == True :
         text = reg_deleter( text, '\([^\(\)]*\)', '' )
@@ -66,7 +66,7 @@ def main( ) :
                 result[ 'QA' ].append( qa )
             else :
                 result[ 'QA' ][ n2 ][ "answer" ][ name ] = ans
-    write_json( result, r'./output/output_sample.json' )
+    write_json( result, r'./output/output.json' )
 
 
 if __name__ == "__main__" :
