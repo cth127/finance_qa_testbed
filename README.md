@@ -3,7 +3,7 @@
 ## Usage
 
 - Set your text and question on ./input/input.json file (See input_sample.json file)
-- Set models to use on ./model.txt (Models can be found on https://huggingface.co/models , only QA models are allowed. )
+- Set models to use on ./model.txt (You can find models from https://huggingface.co/models . Note that only QA models are allowed. )
 - Run run.py (You can use cuda by '-d cuda' argument. (default : cpu)
 
 ## Warning
