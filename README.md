@@ -4,7 +4,9 @@
 
 - Set your text and question on ./input/input.json file (See input_sample.json file)
 - Set models to use on ./model.txt (You can find models from https://huggingface.co/models . Note that only QA models are allowed. )
-- Run run.py (You can use cuda by '-d cuda' argument. (default : cpu)
+- Run run.py (You can use cuda by '-d cuda' argument. (default : cpu))
+- You can delete parenthesis by '-p True' argument. Some model can work much better.
+
 
 ## Warning
 
